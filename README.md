@@ -1,73 +1,95 @@
-# 🌟 FoodFast - Plantilla Estática para Restaurantes 🍽️
+# 🌟 CapuchinoExpresso - Café Website ☕
 
-📢 **Bienvenido/a a FoodFast**, una plantilla web estática para restaurantes creada con **HTML, CSS y JavaScript puro**. Este proyecto forma parte de un **tutorial de YouTube**, donde aprenderás a construir una página web moderna con diseño responsivo.
+📢 **Welcome to CapuchinoExpresso**, a modern and elegant coffee shop website built with **HTML, CSS, and JavaScript**. This project showcases a beautiful and responsive design for a coffee shop business.
 
 <p align="center">
-  <img src="images/macbook-capture.png" width="500">
-  <br>
-  <br>
-  <br>
-  <img src="images/iphone-capture.png" width="150">
-  <img src="images/iphone-capture-2.png" width="150">
-  <img src="images/iphone-capture-3.png" width="150">
+  <img src="images/capuchino.png" width="150">
 </p>
 
-## 📺 Tutorial en YouTube 🎬
+## 🚀 **Features**
 
-Sigue el paso a paso en mi canal de YouTube para aprender a crear la página de esta plantilla desde cero.
+✔️ Modern and responsive design  
+✔️ Interactive navigation menu with smooth scrolling  
+✔️ Beautiful sections including:
+  - Home (Inicio)
+  - Process (Proceso)
+  - Menu (Menú)
+  - Testimonials (Testimonio)
+  - Contact (Contacto)
+✔️ Table reservation system  
+✔️ Mobile-friendly design with hamburger menu  
+✔️ Elegant typography using Acumin Pro and Dancing Script fonts  
+✔️ FontAwesome icons integration  
+✔️ CSS animations and transitions
+✔️ Dynamic header with scroll effects
+✔️ Responsive navigation system
 
-🔗 **[Ver tutorial en YouTube](https://www.youtube.com/@programacionparaelmundo)**
-
----
-
-## 🌐 **Demostración en Vivo**
-
-¿Quieres ver la plantilla en acción antes de descargarla?
-
-🔗 **[Ver Demo en Vivo](https://foodfast-aq.netlify.app)**
-
-## 🚀 **Características**
-
-✔️ Diseño responsivo y adaptable para dispositivos móviles
-✔️ Animaciones suaves con CSS  
-✔️ Menú de navegación interactivo  
-✔️ Secciones personalizables (Inicio, Menú, Reservaciones, Contacto)  
-✔️ FAQ interactivo con JavaScript
-
----
-
-## 📂 **Estructura del Proyecto**
-
-```bash
-📦 foodfast/
- ┣ 📂 images/         # Recursos de imágenes
- ┣ 📂 css/            # Estilos CSS
- ┣ 📂 js/             # Scripts JavaScript
- ┣ 📜 index.html      # Página principal
-```
-
-## 💻 Cómo Usarlo
-
-1. Descargar el código fuente
-
-```bash
-git clone https://github.com/roberto-aq/foodfast_static.git
-```
-
-2. Abrir index.html en el navegador
-3. Personalizar el contenido con tu información
-4. Disfrutar de una plantilla lista para usar 🚀
-
-## Obtén el Código Completo
-
-Si deseas obtener el código fuente completo con archivos organizados y optimizados, puedes apoyarme comprándolo en Buy Me a Coffee.
-☕ **[Comprar el código completo](https://buymeacoffee.com/roberto.aq/e/384078)**
-
-🛠 Tecnologías Utilizadas
+## 🛠️ **Technologies Used**
 
 - HTML5
-- CSS3 Moderno (Flexbox y Grid, Anidamiento, Variables)
-- JavaScript
-- FontAwesome
-- Google Fonts
+- CSS3 (with custom properties and modern layouts)
+- JavaScript (Vanilla)
+- FontAwesome 6.0.0
+- Google Fonts (Acumin Pro, Dancing Script)
+
+## 📂 **Project Structure**
+
+```bash
+📦 CapuchinoExpresso/
+ ┣ 📂 images/         # Image resources and assets
+ ┣ 📂 CSS/           # CSS stylesheets
+ ┃ ┣ 📜 global.css   # Global styles and variables
+ ┃ ┣ 📜 header.css   # Header and navigation styles
+ ┃ ┣ 📜 home.css     # Home section styles
+ ┃ ┗ 📜 footer.css   # Footer styles
+ ┣ 📂 js/            # JavaScript scripts
+ ┃ ┗ 📜 header.js    # Header functionality and animations
+ ┣ 📜 index.html     # Main page
+ ┣ 📜 info.md        # Project information and documentation
+ ┗ 📜 README.md      # Project documentation
+```
+
+## 🎨 **Design Features**
+
+- Clean and modern aesthetic
+- Responsive layout that works on all devices
+- Custom color scheme
+- Smooth animations and transitions
+- Professional typography with custom fonts
+- Interactive elements
+- Dynamic header with scroll effects
+- Mobile-first approach
+
+## 📱 **Responsive Design**
+
+The website is fully responsive and optimized for:
+- Desktop computers
+- Tablets
+- Mobile devices
+- Different screen sizes and orientations
+
+## 🔧 **Installation**
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/CapuchinoExpresso.git
+```
+
+2. Open `index.html` in your web browser
+
+## 🤝 **Contributing**
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 **License**
+
+This project is open source and available under the MIT License.
+
+## 📝 **Development Status**
+
+Currently in active development with ongoing improvements to:
+- Header animations and interactions
+- Responsive design optimizations
+- Performance enhancements
+- User experience improvements
 # CapuchinoExpresso
