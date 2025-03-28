@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/capuchino.png">
+    <!-- CDN FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/global.css">
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/home.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Acumin+Pro:wght@400&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap" rel="stylesheet">
+    <title>CapuchinoExpresso</title>
+    <style>
+        .menu-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container header-expand">
+            <div class="header-logo">
+                <img src="./images/capuchino.png" alt="Logo de CapuchinoExpresso">
+                <span>CapuchinoExpresso</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#proceso">Proceso</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#testimonio">Testimonio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn-primary" data-reservation>Reservar una mesa <i class="fa-solid fa-arrow-right"></i></a>
+            <button class="btn-toggle active">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="menu-responsive">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Proceso</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Testimonio</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Hero -->
+    <section class="hero-banner">
+        <div class="container">
+            <div class="hero-content">
+                <span>Descubre el Arte del Capuchino Perfecto</span>
+                <h1>CapuchinoExpresso</h1>
+                <p>El mejor capuchino de la ciudad, con el mejor sabor y la mejor calidad.</p>
+                <div class="container-button">
+                    <a href="#" class="btn-primary" data-reservation>Reservar una mesa <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Acerca de Nosotros -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>¿Qué hace especial a nuestro capuchino?</h2>
+                <div class="about-flex-container">
+                    <div class="about-image">
+                        <img src="./images/home/capuchino-art.png" alt="Arte en Capuchino" class="main-about-img">
+                    </div>
+                    <div class="about-text">
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <i class="fas fa-award"></i>
+                                <div class="feature-text">
+                                    <h3>Tradición Italiana</h3>
+                                    <p>Seguimos la auténtica receta italiana, manteniendo viva la esencia del verdadero
+                                        capuchino.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-leaf"></i>
+                                <div class="feature-text">
+                                    <h3>Ingredientes Premium</h3>
+                                    <p>Utilizamos granos de café de primera calidad y leche fresca local para garantizar
+                                        el mejor sabor.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-users"></i>
+                                <div class="feature-text">
+                                    <h3>Baristas Expertos</h3>
+                                    <p>Nuestro equipo está certificado internacionalmente y apasionado por el arte del
+                                        café.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-heart"></i>
+                                <div class="feature-text">
+                                    <h3>Hecho con Amor</h3>
+                                    <p>Cada taza es preparada con dedicación y atención al detalle para una experiencia
+                                        única.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Proceso -->
+    <section class="proceso-elaboracion">
+        <div class="container">
+            <!-- Columna Izquierda - Imagen -->
+            <div class="proceso-imagen-container">
+                <img src="./images/home/barista.png" alt="Barista">
+            </div>
+
+            <!-- Columna Derecha - Texto -->
+            <div class="proceso-texto-container">
+                <h2>Proceso de Elaboración</h2>
+                <div class="proceso-items-container">
+                    <div class="proceso-item">
+                        <i class="fas fa-seedling"></i>
+                        <div class="proceso-item-content">
+                            <h3>Selección de Granos</h3>
+                            <p>Escogemos cuidadosamente granos 100% arábica de origen sostenible, tostados a la
+                                perfección para resaltar sus notas naturales.</p>
+                        </div>
+                    </div>
+                    <div class="proceso-item">
+                        <i class="fas fa-coffee"></i>
+                        <div class="proceso-item-content">
+                            <h3>Molienda Fresca</h3>
+                            <p>Molemos los granos al momento para preservar todos sus aceites esenciales y aromas.</p>
+                        </div>
+                    </div>
+                    <div class="proceso-item">
+                        <i class="fas fa-mug-hot"></i>
+                        <div class="proceso-item-content">
+                            <h3>Extracción y Vaporizado</h3>
+                            <p>Extraemos un espresso perfecto y vaporizamos la leche hasta conseguir una microespuma
+                                sedosa y brillante.</p>
+                        </div>
+                    </div>
+                    <div class="proceso-item">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="proceso-item-content">
+                            <h3>Arte Final</h3>
+                            <p>Nuestros baristas terminan cada cappuccino con arte latte personalizado, haciendo única
+                                cada taza.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Menú -->
+    <section class="menu-section">
+        <div class="container">
+            <h2>Menú</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="./images/home/Cafe-Espresso.png" alt="Café Espresso" class="menu-image">
+                    <h3>Café Espresso</h3>
+                    <p>Un café espresso clásico, fuerte y aromático, perfecto para los amantes del café puro.</p>
+                    <a href="#" class="btn-hero" data-order>
+                        Ordenar Ahora
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <img src="./images/home/Capuchino.png" alt="Capuchino" class="menu-image">
+                    <h3>Capuchino</h3>
+                    <p>Un capuchino cremoso con una mezcla perfecta de espresso, leche vaporizada y espuma.</p>
+                    <a href="#" class="btn-hero" data-order>
+                        Ordenar Ahora
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <img src="./images/home/Latte.png" alt="Latte" class="menu-image">
+                    <h3>Latte</h3>
+                    <p>Un latte suave y espumoso, ideal para disfrutar en cualquier momento del día.</p>
+                    <a href="#" class="btn-hero" data-order>
+                        Ordenar Ahora
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <img src="./images/home/Mocha.png" alt="Mocha" class="menu-image">
+                    <h3>Mocha</h3>
+                    <p>Un delicioso mocha con una mezcla de espresso, chocolate y leche, coronado con crema.</p>
+                    <a href="#" class="btn-hero" data-order>
+                        Ordenar Ahora
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonios-section" id="testimonio">
+        <div class="container">
+            <h2>Lo que dicen nuestros amantes del capuchino</h2>
+            <div class="testimonios-items">
+                <div class="testimonio-item">
+                    <div class="testimonio-image-container">
+                        <img src="./images/home/cliente1.png" alt="Cliente 1" class="testimonio-image">
+                    </div>
+                    <div class="testimonio-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"El mejor capuchino que he probado en mi vida. La espuma es perfectamente cremosa y el arte latte es espectacular. La temperatura siempre es perfecta y el balance entre el café y la leche es incomparable."</p>
+                    <div class="testimonio-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonio-autor">
+                        <h4>Ana Martínez</h4>
+                        <span class="autor-rol">Barista Profesional</span>
+                    </div>
+                </div>
+                
+                <div class="testimonio-item">
+                    <div class="testimonio-image-container">
+                        <img src="./images/home/cliente2..png" alt="Cliente 2" class="testimonio-image">
+                    </div>
+                    <div class="testimonio-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"Como italiano, soy muy exigente con mi capuchino, y aquí lo hacen exactamente como en Roma. La espuma es sedosa, el espresso tiene notas perfectas de chocolate y avellana. ¡Bellissimo!"</p>
+                    <div class="testimonio-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonio-autor">
+                        <h4>Marco Rossi</h4>
+                        <span class="autor-rol">Amante del Café Italiano</span>
+                    </div>
+                </div>
+                
+                <div class="testimonio-item">
+                    <div class="testimonio-image-container">
+                        <img src="./images/home/cliente3.png" alt="Cliente 3" class="testimonio-image">
+                    </div>
+                    <div class="testimonio-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"Cada mañana vengo por mi capuchino y nunca me decepciona. La consistencia en la calidad es impresionante. El arte latte siempre es diferente y hermoso, y el sabor es simplemente perfecto."</p>
+                    <div class="testimonio-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonio-autor">
+                        <h4>Laura Sánchez</h4>
+                        <span class="autor-rol">Cliente Frecuente</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact-section" id="contacto">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <p class="subtitle">¿Tienes alguna pregunta o quieres hacer una reservación? Estamos aquí para ayudarte.</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info-content">
+                            <h4>Ubicación</h4>
+                            <p>Av. Principal #123, Ciudad</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="info-content">
+                            <h4>Teléfono</h4>
+                            <p>+1 234 567 890</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p>info@capuchinoexpress.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div class="info-content">
+                            <h4>Horario</h4>
+                            <p>Lun - Vie: 8:00 AM - 8:00 PM<br>
+                               Sáb - Dom: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/header.js"></script>
+    
+    <!-- Modal de Reservación -->
+    <div class="modal-overlay" id="reservationModal">
+        <div class="modal">
+            <button class="close-modal" id="closeModal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Reserva tu Mesa</h3>
+                <p>Disfruta de la mejor experiencia de capuchino</p>
+            </div>
+            <form class="reservation-form" id="reservationForm">
+                <div class="form-group">
+                    <label for="name">Nombre Completo</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Teléfono</label>
+                    <input type="tel" id="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Fecha</label>
+                    <input type="date" id="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Hora</label>
+                    <input type="time" id="time" required>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Número de Personas</label>
+                    <select id="guests" required>
+                        <option value="">Seleccionar</option>
+                        <option value="1">1 Persona</option>
+                        <option value="2">2 Personas</option>
+                        <option value="3">3 Personas</option>
+                        <option value="4">4 Personas</option>
+                        <option value="5">5 Personas</option>
+                        <option value="6">6+ Personas</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="area">Área Preferida</label>
+                    <select id="area">
+                        <option value="">Seleccionar</option>
+                        <option value="interior">Interior</option>
+                        <option value="terraza">Terraza</option>
+                        <option value="barra">Barra de Café</option>
+                    </select>
+                </div>
+                <div class="form-group-full special-requests">
+                    <label>
+                        <input type="checkbox" id="birthday">
+                        Celebración de Cumpleaños
+                    </label>
+                    <label>
+                        <input type="checkbox" id="special-menu">
+                        Menú Especial
+                    </label>
+                    <label>
+                        <input type="checkbox" id="barista-experience">
+                        Experiencia con Barista
+                    </label>
+                </div>
+                <button type="submit" class="btn-reserve">Confirmar Reservación</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Agregar el modal del carrito al final del body -->
+    <div class="cart-modal-overlay" id="cartModal">
+        <div class="cart-modal">
+            <div class="cart-header">
+                <h3>Tu Carrito</h3>
+                <button class="close-cart" id="closeCart">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="cart-items" id="cartItems">
+                <!-- Los items del carrito se agregarán dinámicamente aquí -->
+            </div>
+
+            <div class="cart-empty" id="cartEmpty">
+                <i class="fas fa-shopping-basket"></i>
+                <p>Tu carrito está vacío</p>
+                <button class="btn-continue-shopping" id="continueShopping">
+                    Continuar Comprando
+                </button>
+            </div>
+
+            <div class="cart-summary" id="cartSummary" style="display: none;">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cartTotal">$0.00</span>
+                </div>
+                <button class="btn-checkout" id="checkout">
+                    Proceder al Pago
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

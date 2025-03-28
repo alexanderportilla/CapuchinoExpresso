@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Acumin+Pro:wght@400&display=swap');
+
+:root {
+    --color-primary: #E6DOB1;
+    --color-secondary: #661B05;
+    --text-color: #C16A50;
+    --color-light: #2A4131;
+    --color-divider: #E6D0B1;
+    --dark-color-divider: #661B05;
+    --color-accent: #C16A50;
+    --color-highlight: #2A4131;
+
+    /* Font */
+    --font-primary: 'Maven Pro', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary);
+    color: var(--color-divider);
+    
+}
+
+input, button, textarea, select {
+    font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-divider);
+    
+}
+
+/* UTILS */
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.background-dark-1 {
+    background-color: var(--color-primary);
+}
+
+.background-dark-2 {
+    background-color: var(--color-secondary);
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+
+    img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+
+    span {
+        color: var(--color-light);
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+.btn {
+    text-decoration: none;
+    padding: 17px 25px;
+    text-transform: capitalize;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: none;
+
+
+    &:btn-primary {
+        background-color: var(--color-primary);
+        color: var(--color-light);
+        position: relative;
+
+        &::hover {
+            background-color: var(--color-light);
+            color: var(--color-divider);
+        }
+    }
+
+    &:btn-secondary {
+        background-color: var(--color-light);
+        color: var(--color-divider);
+        position: relative;
+        
+        &::hover {
+            background-color: var(--color-primary);
+            color: var(--color-light);
+        }
+    }
+}
+
+.btn-primary {
+    
+}
+section {
+    padding: 100px 0;
+
+    @media (max-width: 992px) {
+        padding: 50px 15px;
+    }
+}
+
