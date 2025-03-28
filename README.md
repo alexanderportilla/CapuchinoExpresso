@@ -2,9 +2,7 @@
 
 📢 **Welcome to CapuchinoExpresso**, a modern and elegant coffee shop website built with **HTML, CSS, and JavaScript**. This project showcases a beautiful and responsive design for a coffee shop business.
 
-<p align="center">
-  <img src="images/capuchino.png" width="150">
-</p>
+![Image](https://github.com/user-attachments/assets/d4afa376-83e9-4dea-84a1-e85e2a0aff60)
 
 ## 🚀 **Features**
 
